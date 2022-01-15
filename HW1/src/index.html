@@ -5,7 +5,8 @@
 
     <meta charset="UTF-8">
     <title>Андрей Браун - Веб-разработчик</title>
-
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -37,43 +38,54 @@
 
     <div class="AboutMe">
         <h2>Обо мне</h2>
-        <img src="img/AboutMePhoto.png" alt="Фото">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae distinctio ab amet nulla rerum enim corporis tenetur molestiae magnam harum, quia facere, error asperiores, culpa laudantium velit debitis sunt sit.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae distinctio ab amet nulla rerum enim corporis tenetur molestiae magnam harum, quia facere, error asperiores, culpa laudantium velit debitis sunt sit.</p>
+        <img id="TitleRowImg" src="img/TitleRow.png" alt="Линия">
+        <img id="AboutMeImg" src="img/AboutMePhoto.png" alt="Фото">
+        <p id="AMP1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique dolore, reiciendis asperiores eum, amet expedita praesentium veritatis nihil repellat ipsa aut voluptatem velit magnam deleniti incidunt ab, commodi obcaecati perspiciatis quidem exercitationem alias sapiente. Ipsum odit illum animi eaque quis?</p>
+        <p id="AMP2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore aliquid expedita facere ea eveniet veritatis error, harum atque deserunt doloremque asperiores quod, ipsam mollitia quas inventore reprehenderit ipsum voluptatem. Minus, nisi, doloribus. Tenetur neque doloribus repellat iure accusamus quisquam deserunt!</p>
         <input type="submit" value="Скачать резюме">
     </div>
 
 
     <div class="WhatICan">
         <h2>Что я умею</h2>
-        <img src="img/notebook.png" alt="Ноут">
-        <h4>Веб-дизайн</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, totam aut ipsam eum sint repudiandae mollitia ipsa fugit perspiciatis a.</p>
-
-        <img src="img/bracketsBlack.png" alt="</>">
+        <img id="TitleRowImg" src="img/TitleRow.png" alt="Линия">
+        <img class="IconsWIC1" src="img/notebook.png" alt="Ноут">
+        <img class="IconsWIC" src="img/bracketsBlack.png" alt="</>">
+        <img class="IconsWIC" src="img/rocket.png" alt="Ракета">
+        <img class="IconsWIC" src="img/loud.png" alt="Рупор">
+        <div>
+        <h4 id="WICHLead">Веб-дизайн</h4>
         <h4>Разработка</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, totam aut ipsam eum sint repudiandae mollitia ipsa fugit perspiciatis a.</p>
-
-        <img src="img/rocket.png" alt="Ракета">
         <h4>CEO-Оптимизация</h4>
+        <h4>Маркетинг</h4>
+        </div>
+        <p id="WICPLead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, totam aut ipsam eum sint repudiandae mollitia ipsa fugit perspiciatis a.</p>
+
+        
+        
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, totam aut ipsam eum sint repudiandae mollitia ipsa fugit perspiciatis a.</p>
 
-        <img src="img/loud.png" alt="Рупор">
-        <h4>Маркетинг</h4>
+        
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, totam aut ipsam eum sint repudiandae mollitia ipsa fugit perspiciatis a.</p>
+
+        
+        
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, totam aut ipsam eum sint repudiandae mollitia ipsa fugit perspiciatis a.</p>
     </div>
 
 
     <div class="Cases">
         <h2>КЕЙСЫ</h2>
+        <img id="TitleRowImg" src="img/TitleRow.png" alt="Линия">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, molestias.</p>
-        <img src="img/example.png" alt="скрол-имг">
+        <img class="scrolling" src="img/example.png" alt="скрол-имг">
         <h3 class="CasesClientWebsite">client:</h3>
-        <span>Какая-то компания</span>
-        <h3 class="CasesClientWebside">Website:</h3>
-        <span>https://www.somedomain.com</span>
-        <h3>Название проекта</h3>
+        <h4>Название проекта</h4>
+        <span class="Casesex">Какая-то компания</span>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis aspernatur dolorum veniam dolores soluta asperiores cum, ab doloribus minus. Eius pariatur doloremque quasi in non soluta error laudantium tempora temporibus.</span>
+        <h3 class="CasesClientWebside">Website:</h3>
+        <span class="Casesex">https://www.somedomain.com</span>
         <br>
         <input type="submit" value="visit live site">
     </div>
@@ -111,35 +123,45 @@
 
     <div class="Stats">
         <h2>НЕМНОГО СТАТИСТИКИ</h2>
-
-        <img src="img/Smile.png" alt="Смайл">
-        <span>120</span><br>
-        <span>СЧАСТЛИВЫХ КЛИЕНТОВ</span>
-
+        <img id="TitleRowImg" src="img/TitleRow.png" alt="Линия">
+        <div class="StatIcons">
+        <img id="StatIcon1" src="img/Smile.png" alt="Смайл">
         <img src="img/brackets.png" alt="</>">
-        <span>4600</span><br>
-        <span>ЧАСОВ РАБОТЫ</span>
-
         <img src="img/checkbox.png" alt="Чекбокс">
-        <span>340</span><br>
-        <span>ПРОЕКТОВ ЗАВЕРШЕНО</span>
-
         <img src="img/trophey.png" alt="Кубок">
-        <span>23</span><br>
+        </div>
+        <div class="StatNums">
+        <span id="StatNum1">120</span>
+        <span>4600</span>
+        <span>340</span>
+        <span>23</span>
+        </div>
+        <div>
+        <span>СЧАСТЛИВЫХ КЛИЕНТОВ</span>
+        <span>ЧАСОВ РАБОТЫ</span>
+        <span>ПРОЕКТОВ ЗАВЕРШЕНО</span>
         <span>НАГРАД ПОЛУЧЕНО</span>
+        </div>
     </div>
 
 
     <div class="Reviews">
         <h2>ОТЗЫВЫ</h2>
-        <img src="img/ReviewsPhoto.png" alt="Фото">
+        <img id="TitleRowImg" src="img/TitleRow.png" alt="Линия">
+        <img id="ReviewPhoto" src="img/ReviewsPhoto.png" alt="Фото">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, neque.</p>
-        <p>Петя, Ген.директор ПАО "Что-то"</p>
+        <p id="u"><b>Петя</b>, Ген.директор ПАО "Что-то"</p>
+        <div>
+        <img class="DotReviews1" src="img/OrangeDot.png" alt="OrangeDot">
+        <img class="DotReviews" src="img/GrayDot.png" alt="GrayDot">
+        <img class="DotReviews" src="img/GrayDot.png" alt="GrayDot">
+        </div>
     </div>
 
 
     <div class="Contacts">
         <h2>МОИ КОНТАКТЫ</h2>
+        <img id="TitleRowImg" src="img/TitleRow.png" alt="Линия">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, cumque.</p>
 
         <img src="img/geo.png" alt="Поинт">
