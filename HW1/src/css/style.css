@@ -1,8 +1,3 @@
-/* Вопросы про загруженность(padding-padding left; class-id) */
-/* Цвета более бледные */
-/* Целесообразность инпутов */
-/* Расширение на закрыть всё */
-/* Измерение отступов и шрифтов */
 body {
     font-family: Arial, sans-serif;
 }
@@ -115,7 +110,6 @@ nav {
     margin-top: 40px;
 }
 
-/* Поправить иконку на кнопке */
 .AboutMe input {
     float: top;
     display: block;
@@ -128,7 +122,6 @@ nav {
     color: #6f707e;
 }
 
-/* Поправить ориентацию(костыли, спросить как нормально делать/ виновата ширина блоков)(то же в stats) */
 .WhatICan {
     width: 100%;
     height: 523px;
@@ -144,7 +137,6 @@ nav {
     color: #263244;
 }
 
-/* Вопрос как измерять font size */
 .WhatICan h4{
     padding: 36px 0px 0px 0px;
     font-size: 14px;
@@ -153,7 +145,6 @@ nav {
     font-weight: 600;
 }
 
-/* вопрос можно ли обратиться еще ниже*/
 .WhatICan div{
     padding: 108px 0px 0px 83px;
     float: left;
@@ -240,7 +231,6 @@ nav {
     max-width: 70%;
 }
 
-/* Добавить box-shadow */
 .Cases input{
     margin-top: 22px;
     border: 1px solid #63b5ae;
@@ -306,7 +296,6 @@ nav {
     padding-top: 23px;
 }
 
-/* Как эллайнить спан */
 #dd{
     display: block;
     float: left;
@@ -444,7 +433,6 @@ nav {
     margin: auto;
 }
 
-/* padding left на рандом ставился */
 .mail{
     float: left;
     padding-top: 47px;
@@ -461,7 +449,6 @@ nav {
     margin: auto;
 }
 
-/* хавает все оставшееся пространство справа */
 .phone{
     padding: 47px 0px 0px 10px;
 }
@@ -522,7 +509,7 @@ nav {
     font-size: 14px;
     text-shadow: solid 0px 0px 10px 1px black;
     color: #fff;
-    background: opacity 1%;
+    background: none;
     border: 2px solid #fff;
     border-radius: 3px;
     padding: 17px;
